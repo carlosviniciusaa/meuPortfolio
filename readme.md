@@ -23,6 +23,6 @@ Este projeto é o meu portfólio pessoal, criado para apresentar meus trabalhos,
 
 ## Contato
 Carlos Vinícius
-[Email](carlosvinici32@gmail.com)
-[LinkedIn](https://www.linkedin.com/in/carlosviniciusaa/)
-[Github](https://github.com/CarlosViniciusSP)
+- Email: carlosvinici32@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/carlosviniciusaa/)
+- [Github](https://github.com/CarlosViniciusSP)
