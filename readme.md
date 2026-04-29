@@ -22,6 +22,6 @@ Este projeto é o meu portfólio pessoal, criado para apresentar meus trabalhos,
 2. Abra o arquivo `index.html` no navegador.
 
 ## Contato
-[Email] (carlosvinici32@gmail.com)
-[LinkedIn] (https://www.linkedin.com/in/carlosviniciusaa/)
-[Github] (https://github.com/CarlosViniciusSP)
+[Email](carlosvinici32@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/carlosviniciusaa/)
+[Github](https://github.com/CarlosViniciusSP)
