@@ -7,19 +7,12 @@ Este projeto é o meu portfólio pessoal, criado para apresentar meus trabalhos,
 - Apresentação dos meus projetos
 - Seção de habilidades e tecnologias
 - Informações de contato
-- Layout responsivo para desktop e mobile
+- Layout para desktop
 
 ## Tecnologias
 - HTML
 - CSS
 - JavaScript
-
-## Como usar
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/CarlosViniciusSP/meuPortfolio.git
-   ```
-2. Abra o arquivo `index.html` no navegador.
 
 ## Contato
 Carlos Vinícius
