@@ -160,7 +160,7 @@ h1 {
     overflow: hidden;
     transition: all 0.3s ease;
     cursor: pointer;
-    display: flex; /* Adicionado para alinhar o conteúdo verticalmente */
+    display: flex;
     flex-direction: column;
 }
 
@@ -183,7 +183,7 @@ h1 {
 
 .caixaTextoProjetos {
     padding: 1.5rem;
-    flex-grow: 1; /* faz o conteúdo ocupar o espaço disponível */
+    flex-grow: 1;
 }
 
 .infoProjetos {
@@ -196,7 +196,7 @@ h1 {
     color: var(--claro);
     font-size: 0.8rem;
     text-align: center;
-    margin-top: auto; /* empurra as tags para o final do cartão */
+    margin-top: auto;
     padding-bottom: 1rem;
 }
 
