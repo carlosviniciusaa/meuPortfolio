@@ -1,101 +1,106 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfólio de Carlos Vinícius, desenvolvedor de software e designer. Conheça meus projetos e entre em contato.">
+    <meta name="author" content="Carlos Vinícius">
     <title>Carlos Vinícius | Portfólio</title>
     <link rel="stylesheet" href="style.css">
-    <meta name="description" content="Portfólio de Carlos Vinícius, desenvolvedor de software e designer. Conheça meus projetos e entre em contato!">
-    <meta name="keywords" content="Carlos Vinícius, portfólio, desenvolvedor de software, designer, projetos, contato">
-    <meta name="author" content="Carlos Vinícius">
 </head>
 
 <body>
-    <img src="img/background.jpg" alt="Paisagem de fundo" class="background">
-    <div class="particulas"></div>
-    <nav class="navegacao">
-        <ul class="menu" id="menu">
-            <li><a href="#inicio" class="menuLink">Início</a></li>
-            <li><a href="#sobre" class="menuLink">Sobre</a></li>
-            <li><a href="#projetos" class="menuLink">Projetos</a></li>
-            <li><a href="#contato" class="menuLink">Contato</a></li>
+    <img src="img/background.jpg" alt="" class="background">
+
+    <nav class="navigation" aria-label="Navegação principal">
+        <ul class="navigation__menu">
+            <li><a href="#inicio" class="navigation__link">Início</a></li>
+            <li><a href="#sobre" class="navigation__link">Sobre</a></li>
+            <li><a href="#projetos" class="navigation__link">Projetos</a></li>
+            <li><a href="#contato" class="navigation__link">Contato</a></li>
         </ul>
     </nav>
-    <main id="inicio" class="cabecalho">
-        <img src="./img/carlosvinicius.jpg" alt="Foto de Carlos Vinícius" class="fotoPerfil">
-        <h1>Carlos Vinícius</h1>
-        <p class="cabecalhoSubtitulo">Desenvolvedor de Software e Designer</p>
-    </main>
-    <section id="sobre" class="sobre">
-        <h2 class="sobreTitulo">Sobre mim</h2>
-        <div class="sobreCaixa">
-            <p class="sobreParagrafo">Sou formado em Tecnologia em Jogos Digitais pela UNOESTE, onde me destaquei ao
-                longo de toda a graduação pelo desempenho acadêmico e comprometimento. Fui reconhecido como Aluno
-                Destaque, refletindo minha dedicação, disciplina e busca constante por excelência.</p>
 
-            <p class="sobreParagrafo">Durante minha formação, desenvolvi habilidades sólidas em lógica de programação,
-                desenvolvimento de
-                jogos, design digital, modelagem e usabilidade. Tive a oportunidade de participar de projetos práticos
-                que exigiram criatividade, pensamento crítico e trabalho em equipe, sempre focado em construir soluções
-                eficientes e bem estruturadas.</p>
+    <main>
+        <header id="inicio" class="hero">
+            <img src="img/carlosvinicius.jpg" alt="Foto de Carlos Vinícius" class="hero__photo">
+            <h1 class="hero__title">Carlos Vinícius</h1>
+            <p class="hero__subtitle">Desenvolvedor de Software e Designer</p>
+        </header>
 
-            <p class="sobreParagrafo">Minha trajetória é marcada por constância, responsabilidade e evolução contínua —
-                valores que levo para
-                minha atuação profissional na área de tecnologia e desenvolvimento.</p>
-        </div>
-    </section>
-    <section id="projetos" class="projetos">
-        <h2 class="projetosTitulo">Meus Projetos</h2>
-        <div class="projetosCaixa">
-            <div class="projetosCartao">
-                <img src="./img/sistemadecadastro.png" alt="Foto do Sistema de Cadastro de Clientes"
-                    class="projetosImagem">
-                <div class="caixaTextoProjetos">
-                    <h3 class="infoProjetos">Sistema de Cadastro de Clientes</h3>
-                    <p class="paragrafoProjetos">Aplicação desenvolvida utilizando C# com foco em lógica de
-                        programação e operações CRUD (Create, Read, Update, Delete), permitindo cadastro, edição,
-                        listagem e remoção de dados.</p>
-                </div>
-                <p class="projetosTags">Desenvolvimento | Console C#</p>
+        <section id="sobre" class="section">
+            <h2 class="section__title">Sobre mim</h2>
+            <div class="about__content glass-surface">
+                <p>
+                    Sou formado em Tecnologia em Jogos Digitais pela UNOESTE, onde me destaquei ao longo de toda a
+                    graduação pelo desempenho acadêmico e comprometimento. Fui reconhecido como Aluno Destaque,
+                    refletindo minha dedicação, disciplina e busca constante por excelência.
+                </p>
+                <p>
+                    Durante minha formação, desenvolvi habilidades sólidas em lógica de programação, desenvolvimento
+                    de jogos, design digital, modelagem e usabilidade. Participei de projetos práticos que exigiram
+                    criatividade, pensamento crítico e trabalho em equipe, sempre focado em construir soluções
+                    eficientes e bem estruturadas.
+                </p>
+                <p>
+                    Minha trajetória é marcada por constância, responsabilidade e evolução contínua — valores que levo
+                    para minha atuação profissional na área de tecnologia e desenvolvimento.
+                </p>
             </div>
-            <div class="projetosCaixa">
-                <div class="projetosCartao">
-                    <img src="./img/CamisetaRetiroMaranatá2025 - GOJMRDJ2K25.png"
-                        alt="Foto da Camiseta do Retiro Maranatá 2025" class="projetosImagem">
-                    <div class="caixaTextoProjetos">
-                        <h3 class="infoProjetos">Camiseta de Retiro de Igreja</h3>
-                        <p class="paragrafoProjetos">Design de camiseta para o retiro de igreja, com elementos
-                            simbólicos e
-                            cores que representam a identidade da comunidade Jovem Maranatá.</p>
+        </section>
+
+        <section id="projetos" class="section">
+            <h2 class="section__title">Meus Projetos</h2>
+            <div class="projects__grid">
+                <article class="project-card glass-surface">
+                    <img src="img/sistemadecadastro.png" alt="Tela do Sistema de Cadastro de Clientes"
+                        class="project-card__image">
+                    <div class="project-card__content">
+                        <h3 class="project-card__title">Sistema de Cadastro de Clientes</h3>
+                        <p class="project-card__description">
+                            Aplicação desenvolvida em C# com foco em lógica de programação e operações CRUD, permitindo
+                            o cadastro, a edição, a listagem e a remoção de dados.
+                        </p>
                     </div>
-                    <p class="projetosTags">Design | Illustrator</p>
+                    <p class="project-card__tags">Desenvolvimento · Console C#</p>
+                </article>
+
+                <article class="project-card glass-surface">
+                    <img src="img/CamisetaRetiroMaranatá2025 - GOJMRDJ2K25.png"
+                        alt="Camiseta do Retiro Maranatá 2025" class="project-card__image">
+                    <div class="project-card__content">
+                        <h3 class="project-card__title">Camiseta de Retiro de Igreja</h3>
+                        <p class="project-card__description">
+                            Design de camiseta para retiro de igreja, com elementos simbólicos e cores que representam
+                            a identidade da comunidade Jovem Maranatá.
+                        </p>
+                    </div>
+                    <p class="project-card__tags">Design · Illustrator</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contato" class="section">
+            <h2 class="section__title">Entre em Contato</h2>
+            <form class="contact-form glass-surface" id="formulario">
+                <div class="contact-form__group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" class="contact-form__field" placeholder="Digite seu nome"
+                        autocomplete="name" required>
                 </div>
-    </section>
-    <section id="contato" class="contatos">
-        <h2 class="contatosTitulo">Entre em Contato</h2>
-        <form class="formularioContato" id="formulario" onsubmit="enviarWhatsApp(event)">
-            <div class="grupoForm">
-                <input placeholder="Nome" class="campoForm" id="nome">
-            </div>
-            <div class="grupoForm">
-                <textarea placeholder="Digite sua Mensagem" class="campoForm" rows="7" id="mensagem"></textarea>
-            </div>
-            <button type="submit" class="botaoForm">Enviar WhatsApp</button>
-        </form>
-    </section>
-    <script>
-        function enviarWhatsApp(event) {
-            event.preventDefault();
-            const nome = document.getElementById('nome').value;
-            const mensagem = document.getElementById('mensagem').value;
-            const telefone = '5514996981360';
-            const textoBase = `Olá, meu nome é ${nome} e gostaria de entrar em contato com você. Minha mensagem é: ${mensagem}`;
-            const msgformatada = encodeURIComponent(textoBase);
-            const url = `https://wa.me/${telefone}?text=${msgformatada}`;
-            window.open(url, '_blank');
-        }
-    </script>
+                <div class="contact-form__group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" class="contact-form__field" placeholder="Digite sua mensagem" rows="7"
+                        required></textarea>
+                </div>
+                <button type="submit" class="contact-form__button">Enviar pelo WhatsApp</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
