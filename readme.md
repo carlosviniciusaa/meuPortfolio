@@ -44,4 +44,5 @@ Carlos Vinícius
 
 - Email: carlosvinici32@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/carlosviniciusaa/)
-- [GitHub](https://github.com/CarlosViniciusSP)
+- [GitHub](https://github.com/carlosviniciusaa)
+- [WhatsApp](https://wa.me/5514996981360)
